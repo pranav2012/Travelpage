@@ -1,0 +1,40 @@
+html,body{
+   background: url(media/bgg.jpg) no-repeat center center fixed; 
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+}
+
+h1{ 
+    color: rgb(22, 17, 17);
+    background-color: rgba(165, 148, 148, 0.089);
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+.buffer{
+    height: 3rem;
+}
+
+hr{
+    border-color: hotpink;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 22px;
+    background-color: hotpink;
+    border-color: hotpink;
+    font-size: 20px;
+    padding: 6px;
+    width: 10vw;
+}
+
+.btn:hover{
+    background-color: rgb(255, 60, 158);
+    border-color: rgb(255, 60, 158);
+    border-width: 2px;
+}
