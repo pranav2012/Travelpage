@@ -38,3 +38,97 @@ hr{
     border-color: rgb(255, 60, 158);
     border-width: 2px;
 }
+
+@media screen and (max-width: 1350px){
+    h1{
+        font-size: 3rem;
+    }
+    .buffer{
+        height: 3rem;
+    }
+    hr{
+        border-width: 3px;
+        max-width: 65px;
+    }
+    .btn{
+        font-size: 18px;
+        padding: 6px;
+        width: 11vw;
+    }
+
+}
+
+@media screen and (max-width: 1150px){
+    h1{
+        font-size: 3rem;
+    }
+    .buffer{
+        height: 3rem;
+    }
+    hr{
+        border-width: 3px;
+        max-width: 65px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 4px;
+        width: 13vw;
+    }
+
+}
+
+@media screen and (max-width: 960px){
+    h1{
+        font-size: 45px;
+    }
+    .buffer{
+        height: 5px;
+    }
+    hr{
+        border-width: 2.8px;
+        max-width: 60px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 4px;
+        width: 17vw;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+    h1{
+        font-size: 40px;
+    }
+    .buffer{
+        height: 3px;
+    }
+    hr{
+        border-width: 2.4px;
+        max-width: 55px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 4px;
+        width: 22vw;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 30px;
+    }
+    .buffer{
+        height: 1px;
+    }
+    hr{
+        border-width: 2px;
+        max-width: 45px;
+    }
+    .btn{
+        font-size: 13px;
+        padding: 2px;
+        width: 20vw;
+    }
+    }
